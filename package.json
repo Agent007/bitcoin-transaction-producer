@@ -1,0 +1,13 @@
+{
+  "name": "bitcoin-transaction-producer",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "debug": "~2.2.0",
+    "websocket": "~1.0.19",
+    "kafka-node": "~0.2.27"
+  }
+}
